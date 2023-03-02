@@ -1,23 +1,31 @@
 TTcoin integration/staging tree
 ================================
 
-www.myttcoin.com
-
 Copyright (c) 2009-2018 Bitcoin Developers
 Copyright (c) 2017-2018 TTcoin Developers
+Copyright (c) 2023 Birdwallet Developers
 
-What is TTcoin?
+What is Birdwallet?
 ----------------
 
-TTcoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 2.5 minute block targets
+Birdwallet is a lite version of Bitcoin using scrypt as a proof-of-work algorithm(to be changed to poof of trends on twitter)
+All specification to be reoganized in order of
+1. Getwork = Gettrends
+2. Gettrends=specific twitter id
+3. specific twitter id = gethash
+4. gethash = genblock
+5. genblock = gethash
+6. gethash = specific twitter id
+7. specific twitter id = create wallet
+
+// - 2.5 minute block targets
  - subsidy halves in 840k blocks (~4 years)
  - ~84 million total coins
 
 The rest is the same as Bitcoin.
  - 50 coins per block
  - 2016 blocks to retarget difficulty
-
+//
 For more information, as well as an immediately useable, binary version of
 the TTcoin client sofware, see http://www.TTcoin.org.
 
